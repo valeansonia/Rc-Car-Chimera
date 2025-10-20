@@ -59,13 +59,14 @@ jobs:
           rosdep update
           rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers"
 
+          sudo apt update
+          sudo apt install -y ros-humble-desktop
+
       - name: Build workspace
         shell: bash
         run: |
-          sudo apt update
-          sudo apt install -y ros-humble-desktop
           source /opt/ros/humble/setup.bash
-          cd ~/Rc-Car_Chimera/Rc-Car/src
+          cd ~/Rc-Car-Chimera/Rc-Car/src
           colcon build --event-handlers console_cohesion+ --cmake-args -DCMAKE_BUILD_TYPE=Release
 
       - name: Verify build success
