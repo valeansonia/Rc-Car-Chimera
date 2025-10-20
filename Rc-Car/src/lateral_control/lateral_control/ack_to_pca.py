@@ -287,9 +287,6 @@ class AckToPca(Node):
                 self.set_speed(speed_val if speed_val <= DEFAULT_FORWARD_FULL_SPEED_LIMITED else DEFAULT_FORWARD_FULL_SPEED_LIMITED)
 
                 # if value > 1022:
-                #     self.set_speed(DEFAULT_SPEED + 2 * SPEED_STEP)
-                # elif value > 300:
-                #     self.set_speed(DEFAULT_SPEED + SPEED_STEP)
                 # else:
                 #     self.set_speed(DEFAULT_SPEED)
 
