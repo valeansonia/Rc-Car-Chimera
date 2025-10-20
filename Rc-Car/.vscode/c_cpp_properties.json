@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ubuntu/Chimera/install/zed_components/include/**",
+        "/home/ubuntu/Chimera/install/zed_interfaces/include/**",
+        "/home/ubuntu/Chimera/install/vesc_driver/include/**",
+        "/home/ubuntu/Chimera/install/vesc_ackermann/include/**",
+        "/home/ubuntu/Chimera/install/vesc_msgs/include/**",
+        "/home/ubuntu/Chimera/install/teleop_tools_msgs/include/**",
+        "/home/ubuntu/Chimera/install/multirobot_map_merge/include/**",
+        "/home/ubuntu/Chimera/install/explore_lite/include/**",
+        "/home/ubuntu/Chimera/install/ackermann_mux/include/**",
+        "/home/ubuntu/chimera/install/zed_components/include/**",
+        "/home/ubuntu/chimera/install/zed_interfaces/include/**",
+        "/home/ubuntu/chimera/install/vesc_driver/include/**",
+        "/home/ubuntu/chimera/install/vesc_ackermann/include/**",
+        "/home/ubuntu/chimera/install/vesc_msgs/include/**",
+        "/home/ubuntu/chimera/install/teleop_tools_msgs/include/**",
+        "/home/ubuntu/chimera/install/multirobot_map_merge/include/**",
+        "/home/ubuntu/chimera/install/explore_lite/include/**",
+        "/home/ubuntu/chimera/install/ackermann_mux/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/ubuntu/Chimera/src/stage_ros2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
