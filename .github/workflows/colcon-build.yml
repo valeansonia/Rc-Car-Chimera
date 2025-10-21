@@ -63,14 +63,14 @@ jobs:
           sudo apt install -y ros-humble-desktop
 
       - name: Install FLTK development libraries
-        run: sudo apt-get update && sudo apt-get install -y libfltk1.3-dev
+        run: sudo apt-get update && sudo apt-get install -y cmake g++ libjpeg8-dev libpng-dev libglu1-mesa-dev libltdl-dev libfltk1.1-dev
 
       - name: Build workspace
         shell: bash
         run: |
           source /opt/ros/humble/setup.bash
           cd ${{ github.workspace }}
-          colcon build --event-handlers console_cohesion+ --cmake-args -DCMAKE_BUILD_TYPE=Release
+          colcon build
 
 
 
