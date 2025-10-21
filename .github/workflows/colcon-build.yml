@@ -12,6 +12,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install FLTK development libraries
+        run: sudo apt-get update && sudo apt-get install -y libfltk1.3-dev
+
       - name: Install ROS 2 Humble (minimal)
         run: |
           pip install vcstool
@@ -60,7 +63,7 @@ jobs:
           rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers"
 
           sudo apt update
-          sudo apt install -y ros-humble-desktop
+          sudo apt install -y ros-humble-ros-base
 
       - name: Build workspace
         shell: bash
