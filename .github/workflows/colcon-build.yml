@@ -66,7 +66,7 @@ jobs:
         shell: bash
         run: |
           source /opt/ros/humble/setup.bash
-          cd ~/Rc-Car/src
+          cd ${{ github.workspace }}
           colcon build --event-handlers console_cohesion+ --cmake-args -DCMAKE_BUILD_TYPE=Release
 
       - name: Verify build success
