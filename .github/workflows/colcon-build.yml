@@ -3,6 +3,12 @@ name: Fast Colcon Build Check
 on:
   push:
   pull_request:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: 'Colcon build file logs'
+        required: false
+        default: 'build.log'
 
 jobs:
   build:
@@ -68,11 +74,10 @@ jobs:
       - name: Build workspace
         shell: bash
         run: |
+          touch build.log
           source /opt/ros/humble/setup.bash
           cd ${{ github.workspace }}
-          colcon build
-
-
+          colcon build | tee build.log
 
       - name: Verify build success
         if: success()
