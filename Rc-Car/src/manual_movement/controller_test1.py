@@ -4,7 +4,7 @@ import math
 
 from xbox_controls2 import *
 
-device = "/dev/input/event13"
+device = "/dev/input/event11"
 
 try:
     fd = os.open(device, os.O_RDONLY)

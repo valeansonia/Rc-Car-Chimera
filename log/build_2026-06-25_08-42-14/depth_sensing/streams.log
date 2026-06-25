@@ -1,0 +1,22 @@
+[0.716s] Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing -- -j8 -l8
+[2.676s] [100%] Built target depth_sensing
+[2.697s] Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing -- -j8 -l8
+[2.701s] Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing
+[2.719s] -- Install configuration: "Release"
+[2.726s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/lib/depth_sensing/depth_sensing
+[2.728s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/ament_index/resource_index/package_run_dependencies/depth_sensing
+[2.728s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/ament_index/resource_index/parent_prefix_path/depth_sensing
+[2.729s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/environment/ament_prefix_path.sh
+[2.729s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/environment/ament_prefix_path.dsv
+[2.729s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/environment/path.sh
+[2.729s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/environment/path.dsv
+[2.729s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/local_setup.bash
+[2.729s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/local_setup.sh
+[2.730s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/local_setup.zsh
+[2.730s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/local_setup.dsv
+[2.730s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.dsv
+[2.731s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/ament_index/resource_index/packages/depth_sensing
+[2.732s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/cmake/depth_sensingConfig.cmake
+[2.732s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/cmake/depth_sensingConfig-version.cmake
+[2.732s] -- Up-to-date: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.xml
+[2.741s] Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing

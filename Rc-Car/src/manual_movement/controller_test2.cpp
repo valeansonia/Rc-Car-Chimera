@@ -6,7 +6,7 @@
 #include "hardcoded_addresses.h"
 
 int main() {
-    const char* device = "/dev/input/event13"; 
+    const char* device = "/dev/input/event11"; 
     int fd = open(device, O_RDONLY);
     if (fd < 0) {
         std::cerr << "Failed to open " << device << "\n";

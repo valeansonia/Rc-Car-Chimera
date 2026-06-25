@@ -1,0 +1,10 @@
+[console_scripts]
+ack_to_pca = lateral_control.ack_to_pca:main
+autonomous_video_version = lateral_control.autonomous_video_version:main
+in_lane_positioning = lateral_control.in_lane_positioning:main
+lane2 = lateral_control.lane2:main
+lane_information = lateral_control.lane_information:main
+lidar_detection = lateral_control.lidar_detection:main
+steering_control = lateral_control.steering_control:main
+visual = lateral_control.visual:main
+

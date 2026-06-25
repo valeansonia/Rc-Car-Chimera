@@ -1,0 +1,663 @@
+[0.306s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.306s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9a295480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9a2972e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9a2972e0>>, mixin_verb=('build',))
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.683s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.683s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arrk-adas/Desktop/Rc-Car-Chimera'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extensions ['ros']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extension 'ros'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extensions ['cmake', 'python']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extension 'cmake'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extension 'python'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extensions ['python_setup_py']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car) by extension 'python_setup_py'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extension 'ignore'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extension 'ignore_ament_install'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extensions ['colcon_pkg']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extension 'ros'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extensions ['cmake', 'python']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extension 'cmake'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extension 'python'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extensions ['python_setup_py']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src) by extension 'python_setup_py'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extension 'ignore'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extension 'ignore_ament_install'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extensions ['colcon_pkg']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extension 'colcon_pkg'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extensions ['colcon_meta']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extension 'colcon_meta'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extensions ['ros']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extension 'ros'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extensions ['cmake', 'python']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extension 'cmake'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/Stage) by extension 'python'
+[0.746s] DEBUG:colcon.colcon_core.package_identification:Package 'Rc-Car/src/Stage' with type 'cmake' and name 'Stage'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extension 'ignore'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extension 'ignore_ament_install'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extensions ['colcon_pkg']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extension 'colcon_pkg'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extensions ['colcon_meta']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extension 'colcon_meta'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extensions ['ros']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/acc_drive) by extension 'ros'
+[0.761s] DEBUG:colcon.colcon_core.package_identification:Package 'Rc-Car/src/acc_drive' with type 'ros.ament_python' and name 'acc_drive'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/build) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/build) ignored
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/depth_sensing) by extension 'ros'
+[0.764s] DEBUG:colcon.colcon_core.package_identification:Package 'Rc-Car/src/depth_sensing' with type 'ros.ament_cmake' and name 'depth_sensing'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extensions ['ros']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extension 'ros'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extensions ['cmake', 'python']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extension 'cmake'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extension 'python'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extensions ['python_setup_py']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation) by extension 'python_setup_py'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extension 'colcon_pkg'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extensions ['colcon_meta']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extension 'ros'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extensions ['cmake', 'python']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extension 'cmake'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extension 'python'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extensions ['python_setup_py']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/english) by extension 'python_setup_py'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extension 'ros'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extensions ['cmake', 'python']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extension 'cmake'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extension 'python'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extensions ['python_setup_py']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/documentation/german) by extension 'python_setup_py'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/install) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/install) ignored
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extension 'colcon_meta'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extensions ['ros']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lateral_control) by extension 'ros'
+[0.772s] DEBUG:colcon.colcon_core.package_identification:Package 'Rc-Car/src/lateral_control' with type 'ros.ament_python' and name 'lateral_control'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extension 'ignore'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extension 'ignore_ament_install'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extensions ['colcon_pkg']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extension 'colcon_pkg'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extensions ['colcon_meta']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extension 'colcon_meta'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extensions ['ros']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/lidar_noise) by extension 'ros'
+[0.774s] DEBUG:colcon.colcon_core.package_identification:Package 'Rc-Car/src/lidar_noise' with type 'ros.ament_python' and name 'lidar_noise'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/log) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/log) ignored
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extension 'ignore_ament_install'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extensions ['colcon_pkg']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extension 'colcon_pkg'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extension 'ros'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extensions ['cmake', 'python']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extension 'cmake'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extension 'python'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extensions ['python_setup_py']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement) by extension 'python_setup_py'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extension 'ros'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extensions ['cmake', 'python']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extension 'cmake'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extension 'python'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extensions ['python_setup_py']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/__pycache__) by extension 'python_setup_py'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/build) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/build) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/build) ignored
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/install) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/install) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/install) ignored
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/log) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/log) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/manual_movement/log) ignored
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extensions ['cmake', 'python']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extension 'cmake'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extension 'python'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extensions ['python_setup_py']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/model) by extension 'python_setup_py'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/object_detection) by extension 'ros'
+[0.782s] DEBUG:colcon.colcon_core.package_identification:Package 'Rc-Car/src/object_detection' with type 'ros.ament_python' and name 'object_detection'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/stage_ros2) by extension 'ros'
+[0.784s] DEBUG:colcon.colcon_core.package_identification:Package 'Rc-Car/src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(Rc-Car/src/urg_node) by extension 'ros'
+[0.787s] DEBUG:colcon.colcon_core.package_identification:Package 'Rc-Car/src/urg_node' with type 'ros.ament_cmake' and name 'urg_node'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.901s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.903s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.904s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.906s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/arrk-adas/Desktop/Rc-Car-Chimera/install
+[0.909s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 468 installed packages in /opt/ros/humble
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.351s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_args' from command line to 'None'
+[3.351s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target' from command line to 'None'
+[3.351s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.352s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_cache' from command line to 'False'
+[3.352s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_first' from command line to 'False'
+[3.352s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_force_configure' from command line to 'False'
+[3.352s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'ament_cmake_args' from command line to 'None'
+[3.352s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_cmake_args' from command line to 'None'
+[3.352s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.352s] DEBUG:colcon.colcon_core.verb:Building package 'Stage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage', 'merge_install': False, 'path': '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage', 'symlink_install': False, 'test_result_base': None}
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'cmake_args' from command line to 'None'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'cmake_target' from command line to 'None'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'cmake_clean_first' from command line to 'False'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'cmake_force_configure' from command line to 'False'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'ament_cmake_args' from command line to 'None'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'acc_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.353s] DEBUG:colcon.colcon_core.verb:Building package 'acc_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/acc_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive', 'merge_install': False, 'path': '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/acc_drive', 'symlink_install': False, 'test_result_base': None}
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'cmake_args' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'cmake_target' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'cmake_clean_cache' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'cmake_clean_first' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'cmake_force_configure' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'ament_cmake_args' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'catkin_cmake_args' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'depth_sensing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.354s] DEBUG:colcon.colcon_core.verb:Building package 'depth_sensing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing', 'merge_install': False, 'path': '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/depth_sensing', 'symlink_install': False, 'test_result_base': None}
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'cmake_args' from command line to 'None'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'cmake_target' from command line to 'None'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.355s] Level 5:colcon.colcon_core.verb:set package 'lateral_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.355s] DEBUG:colcon.colcon_core.verb:Building package 'lateral_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/lateral_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control', 'merge_install': False, 'path': '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lateral_control', 'symlink_install': False, 'test_result_base': None}
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'cmake_args' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'cmake_target' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'cmake_clean_cache' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'cmake_clean_first' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'cmake_force_configure' from command line to 'False'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'ament_cmake_args' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'catkin_cmake_args' from command line to 'None'
+[3.356s] Level 5:colcon.colcon_core.verb:set package 'lidar_noise' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.356s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_noise' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/lidar_noise', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise', 'merge_install': False, 'path': '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lidar_noise', 'symlink_install': False, 'test_result_base': None}
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_args' from command line to 'None'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target' from command line to 'None'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_clean_first' from command line to 'False'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'cmake_force_configure' from command line to 'False'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'ament_cmake_args' from command line to 'None'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[3.357s] Level 5:colcon.colcon_core.verb:set package 'object_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.357s] DEBUG:colcon.colcon_core.verb:Building package 'object_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/object_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection', 'merge_install': False, 'path': '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/object_detection', 'symlink_install': False, 'test_result_base': None}
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_args' from command line to 'None'
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target' from command line to 'None'
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.358s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node', 'merge_install': False, 'path': '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node', 'symlink_install': False, 'test_result_base': None}
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_args' from command line to 'None'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target' from command line to 'None'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.359s] DEBUG:colcon.colcon_core.verb:Building package 'stage_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2', 'merge_install': False, 'path': '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2', 'symlink_install': False, 'test_result_base': None}
+[3.359s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.362s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage'
+[3.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.604s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/acc_drive' with build type 'ament_python'
+[10.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('acc_drive', 'ament_prefix_path')
+[10.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/hook/ament_prefix_path.ps1'
+[10.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/hook/ament_prefix_path.dsv'
+[15.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/hook/ament_prefix_path.sh'
+[15.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.997s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.005s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/depth_sensing' with build type 'ament_cmake'
+[16.007s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/depth_sensing'
+[16.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.021s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lateral_control' with build type 'ament_python'
+[16.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('lateral_control', 'ament_prefix_path')
+[16.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/hook/ament_prefix_path.ps1'
+[16.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/hook/ament_prefix_path.dsv'
+[16.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/hook/ament_prefix_path.sh'
+[16.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.040s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lidar_noise' with build type 'ament_python'
+[16.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_noise', 'ament_prefix_path')
+[16.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/hook/ament_prefix_path.ps1'
+[16.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/hook/ament_prefix_path.dsv'
+[16.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/hook/ament_prefix_path.sh'
+[16.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.055s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/object_detection' with build type 'ament_python'
+[16.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'ament_prefix_path')
+[16.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/hook/ament_prefix_path.ps1'
+[18.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/hook/ament_prefix_path.dsv'
+[18.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/hook/ament_prefix_path.sh'
+[18.057s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.065s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node' with build type 'ament_cmake'
+[18.066s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node'
+[18.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage -- -j8 -l8
+[21.435s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/acc_drive'
+[25.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing -- -j8 -l8
+[33.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lateral_control'
+[37.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[37.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.094s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lidar_noise'
+[38.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.732s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/object_detection'
+[38.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node -- -j8 -l8
+[38.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing -- -j8 -l8
+[38.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing
+[38.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage -- -j8 -l8
+[38.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage
+[38.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_sensing)
+[38.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing
+[38.852s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing' for CMake module files
+[38.854s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing' for CMake config files
+[38.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_sensing', 'cmake_prefix_path')
+[38.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/hook/cmake_prefix_path.ps1'
+[38.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/hook/cmake_prefix_path.dsv'
+[38.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/hook/cmake_prefix_path.sh'
+[38.862s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/lib'
+[38.862s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/bin'
+[38.863s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/lib/pkgconfig/depth_sensing.pc'
+[38.863s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/lib/python3.10/site-packages'
+[38.863s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/bin'
+[38.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.ps1'
+[38.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.dsv'
+[38.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.sh'
+[38.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.bash'
+[38.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.zsh'
+[38.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/colcon-core/packages/depth_sensing)
+[38.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_sensing)
+[38.881s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing' for CMake module files
+[38.883s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing' for CMake config files
+[38.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_sensing', 'cmake_prefix_path')
+[38.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/hook/cmake_prefix_path.ps1'
+[38.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/hook/cmake_prefix_path.dsv'
+[38.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/hook/cmake_prefix_path.sh'
+[38.889s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/lib'
+[38.890s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/bin'
+[38.890s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/lib/pkgconfig/depth_sensing.pc'
+[38.890s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/lib/python3.10/site-packages'
+[38.891s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/bin'
+[38.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.ps1'
+[38.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.dsv'
+[38.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.sh'
+[38.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.bash'
+[38.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/depth_sensing/package.zsh'
+[38.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing/share/colcon-core/packages/depth_sensing)
+[38.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Stage)
+[38.962s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage' for CMake module files
+[38.963s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage' for CMake config files
+[38.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'cmake_prefix_path')
+[38.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/cmake_prefix_path.ps1'
+[38.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage
+[38.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/cmake_prefix_path.dsv'
+[38.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/cmake_prefix_path.sh'
+[38.970s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib'
+[38.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'ld_library_path_lib')
+[38.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/ld_library_path_lib.ps1'
+[38.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/ld_library_path_lib.dsv'
+[38.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/ld_library_path_lib.sh'
+[38.988s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/bin'
+[38.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'path')
+[38.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/path.ps1'
+[38.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/path.dsv'
+[38.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/path.sh'
+[38.992s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib/pkgconfig/Stage.pc'
+[38.992s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib/python3.10/site-packages'
+[38.993s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/bin'
+[38.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'pythonscriptspath')
+[38.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/pythonscriptspath.ps1'
+[38.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/pythonscriptspath.dsv'
+[38.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/hook/pythonscriptspath.sh'
+[38.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/package.ps1'
+[38.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/package.dsv'
+[39.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/package.sh'
+[39.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/package.bash'
+[39.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/Stage/package.zsh'
+[39.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/share/colcon-core/packages/Stage)
+[39.008s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2' with build type 'ament_cmake'
+[39.008s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2'
+[39.009s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2 -- -j8 -l8
+[39.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node -- -j8 -l8
+[39.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node
+[39.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[39.135s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node' for CMake module files
+[39.136s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node' for CMake config files
+[39.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[39.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[39.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[39.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[39.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node
+[39.144s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib'
+[39.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[39.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[39.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[39.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[39.151s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/bin'
+[39.151s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib/pkgconfig/urg_node.pc'
+[39.152s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib/python3.10/site-packages'
+[39.152s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/bin'
+[39.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.ps1'
+[39.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.dsv'
+[39.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.sh'
+[39.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.bash'
+[39.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.zsh'
+[39.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/colcon-core/packages/urg_node)
+[39.159s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[39.160s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node' for CMake module files
+[39.164s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node' for CMake config files
+[39.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[39.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[39.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[39.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[39.170s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib'
+[39.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[39.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[39.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[39.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[39.174s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/bin'
+[39.174s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib/pkgconfig/urg_node.pc'
+[39.175s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib/python3.10/site-packages'
+[39.175s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/bin'
+[39.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.ps1'
+[39.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.dsv'
+[39.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.sh'
+[39.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.bash'
+[39.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/urg_node/package.zsh'
+[39.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/share/colcon-core/packages/urg_node)
+[39.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2 -- -j8 -l8
+[39.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2
+[39.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[39.332s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2' for CMake module files
+[39.333s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2' for CMake config files
+[39.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[39.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[39.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2
+[39.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[39.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[39.339s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib'
+[39.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[39.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[39.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[39.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[39.344s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/bin'
+[39.344s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[39.344s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib/python3.10/site-packages'
+[39.345s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/bin'
+[39.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.ps1'
+[39.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.dsv'
+[39.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.sh'
+[39.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.bash'
+[39.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.zsh'
+[39.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[39.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[39.356s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2' for CMake module files
+[39.357s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2' for CMake config files
+[39.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[39.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[39.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[39.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[39.409s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib'
+[39.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[39.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[39.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[39.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[39.424s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/bin'
+[39.424s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[39.425s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib/python3.10/site-packages'
+[39.425s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/bin'
+[39.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.ps1'
+[39.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.dsv'
+[39.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.sh'
+[39.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.bash'
+[39.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.zsh'
+[39.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[39.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lidar_noise': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/lidar_noise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lidar_noise build --build-base /home/arrk-adas/Desktop/Rc-Car-Chimera/build/lidar_noise/build install --record /home/arrk-adas/Desktop/Rc-Car-Chimera/build/lidar_noise/install.log --install-scripts $base/lib/lidar_noise --single-version-externally-managed install_data
+[39.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/acc_drive': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/acc_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/acc_drive build --build-base /home/arrk-adas/Desktop/Rc-Car-Chimera/build/acc_drive/build install --record /home/arrk-adas/Desktop/Rc-Car-Chimera/build/acc_drive/install.log --single-version-externally-managed install_data
+[39.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lateral_control': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/lateral_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lateral_control build --build-base /home/arrk-adas/Desktop/Rc-Car-Chimera/build/lateral_control/build install --record /home/arrk-adas/Desktop/Rc-Car-Chimera/build/lateral_control/install.log --single-version-externally-managed install_data
+[39.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/object_detection': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/arrk-adas/Desktop/Rc-Car-Chimera/build/object_detection/build install --record /home/arrk-adas/Desktop/Rc-Car-Chimera/build/object_detection/install.log --single-version-externally-managed install_data
+[40.622s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise' for CMake module files
+[40.624s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise' for CMake config files
+[40.625s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/lib'
+[40.626s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/bin'
+[40.626s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/lib/pkgconfig/lidar_noise.pc'
+[40.626s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/lib/python3.10/site-packages'
+[40.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_noise', 'pythonpath')
+[40.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/hook/pythonpath.ps1'
+[40.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lidar_noise' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/lidar_noise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lidar_noise build --build-base /home/arrk-adas/Desktop/Rc-Car-Chimera/build/lidar_noise/build install --record /home/arrk-adas/Desktop/Rc-Car-Chimera/build/lidar_noise/install.log --install-scripts $base/lib/lidar_noise --single-version-externally-managed install_data
+[40.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/hook/pythonpath.dsv'
+[40.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/hook/pythonpath.sh'
+[40.633s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/bin'
+[40.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_noise)
+[40.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/package.ps1'
+[40.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/package.dsv'
+[40.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/package.sh'
+[40.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/package.bash'
+[40.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise/package.zsh'
+[40.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise/share/colcon-core/packages/lidar_noise)
+[40.669s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive' for CMake module files
+[40.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/acc_drive' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/acc_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/acc_drive build --build-base /home/arrk-adas/Desktop/Rc-Car-Chimera/build/acc_drive/build install --record /home/arrk-adas/Desktop/Rc-Car-Chimera/build/acc_drive/install.log --single-version-externally-managed install_data
+[40.672s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive' for CMake config files
+[40.673s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/lib'
+[40.674s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/bin'
+[40.674s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/lib/pkgconfig/acc_drive.pc'
+[40.674s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages'
+[40.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('acc_drive', 'pythonpath')
+[40.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/hook/pythonpath.ps1'
+[40.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/hook/pythonpath.dsv'
+[40.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/hook/pythonpath.sh'
+[40.679s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/bin'
+[40.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(acc_drive)
+[40.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/package.ps1'
+[40.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/package.dsv'
+[40.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/package.sh'
+[40.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/package.bash'
+[40.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/acc_drive/package.zsh'
+[40.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive/share/colcon-core/packages/acc_drive)
+[40.695s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection' for CMake module files
+[40.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/object_detection' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /home/arrk-adas/Desktop/Rc-Car-Chimera/build/object_detection/build install --record /home/arrk-adas/Desktop/Rc-Car-Chimera/build/object_detection/install.log --single-version-externally-managed install_data
+[40.698s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection' for CMake config files
+[40.699s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/lib'
+[40.700s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/bin'
+[40.700s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/lib/pkgconfig/object_detection.pc'
+[40.701s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/lib/python3.10/site-packages'
+[40.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection', 'pythonpath')
+[40.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/hook/pythonpath.ps1'
+[40.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/hook/pythonpath.dsv'
+[40.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/hook/pythonpath.sh'
+[40.705s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/bin'
+[40.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detection)
+[40.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/package.ps1'
+[40.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/package.dsv'
+[40.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/package.sh'
+[40.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/package.bash'
+[40.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/object_detection/package.zsh'
+[40.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection/share/colcon-core/packages/object_detection)
+[40.725s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control' for CMake module files
+[40.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/lateral_control' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/lateral_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lateral_control build --build-base /home/arrk-adas/Desktop/Rc-Car-Chimera/build/lateral_control/build install --record /home/arrk-adas/Desktop/Rc-Car-Chimera/build/lateral_control/install.log --single-version-externally-managed install_data
+[40.726s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control' for CMake config files
+[40.728s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib'
+[40.728s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/bin'
+[40.728s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/pkgconfig/lateral_control.pc'
+[40.728s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages'
+[40.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('lateral_control', 'pythonpath')
+[40.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/hook/pythonpath.ps1'
+[40.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/hook/pythonpath.dsv'
+[40.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/hook/pythonpath.sh'
+[40.732s] Level 1:colcon.colcon_core.environment:checking '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/bin'
+[40.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lateral_control)
+[40.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/package.ps1'
+[40.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/package.dsv'
+[40.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/package.sh'
+[40.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/package.bash'
+[40.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/lateral_control/package.zsh'
+[40.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/share/colcon-core/packages/lateral_control)
+[40.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[40.740s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.760s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.760s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.760s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.799s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/local_setup.ps1'
+[40.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/_local_setup_util_ps1.py'
+[40.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/setup.ps1'
+[40.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/local_setup.sh'
+[40.809s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/_local_setup_util_sh.py'
+[40.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/setup.sh'
+[40.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/local_setup.bash'
+[40.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/setup.bash'
+[40.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/local_setup.zsh'
+[40.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/setup.zsh'

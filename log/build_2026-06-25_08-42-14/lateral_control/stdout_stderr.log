@@ -1,0 +1,26 @@
+running egg_info
+writing ../../../build/lateral_control/lateral_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/lateral_control/lateral_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/lateral_control/lateral_control.egg-info/entry_points.txt
+writing requirements to ../../../build/lateral_control/lateral_control.egg-info/requires.txt
+writing top-level names to ../../../build/lateral_control/lateral_control.egg-info/top_level.txt
+reading manifest file '../../../build/lateral_control/lateral_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/lateral_control/lateral_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages/lateral_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/lateral_control/lateral_control.egg-info to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages/lateral_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ack_to_pca script to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+Installing autonomous_video_version script to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+Installing in_lane_positioning script to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+Installing lane2 script to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+Installing lane_information script to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+Installing lidar_detection script to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+Installing steering_control script to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+Installing visual script to /home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+writing list of installed files to '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/lateral_control/install.log'
