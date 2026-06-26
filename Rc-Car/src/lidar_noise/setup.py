@@ -17,7 +17,7 @@ setup(
     maintainer_email='sabeeh.musharraf@arrk-engineering.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    #tests_require=['pytest'],
     entry_points={
         'console_scripts': [ 'Lidar_noise = lidar_noise.Lidar_noise:main',
         ],

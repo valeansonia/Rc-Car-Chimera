@@ -1,8 +1,8 @@
-# Install script for directory: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node
+# Install script for directory: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node")
+  set(CMAKE_INSTALL_PREFIX "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/urg_node")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/urg_node_driver"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/urg_node" TYPE EXECUTABLE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/urg_node_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/urg_node" TYPE EXECUTABLE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/urg_node_driver")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/urg_node_driver" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/urg_node_driver")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/urg_node_driver"
-         OLD_RPATH "/opt/ros/humble/lib:/home/arrk-adas/miniforge3/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/urg_node_driver")
@@ -69,12 +69,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liburg_node.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/liburg_node.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/liburg_node.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liburg_node.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liburg_node.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liburg_node.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/arrk-adas/miniforge3/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liburg_node.so")
@@ -92,12 +92,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/getID"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/urg_node" TYPE EXECUTABLE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/getID")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/urg_node" TYPE EXECUTABLE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/getID")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/getID" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/getID")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/getID"
-         OLD_RPATH "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node:/opt/ros/humble/lib:/home/arrk-adas/miniforge3/lib:"
+         OLD_RPATH "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/urg_node/getID")
@@ -106,18 +106,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/urg_node" TYPE PROGRAM FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node/scripts/set_urg_ip.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/urg_node" TYPE PROGRAM FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node/scripts/set_urg_ip.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE DIRECTORY FILES
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node/launch"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node/meshes"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node/urdf"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node/launch"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node/meshes"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node/urdf"
     )
 endif()
 
@@ -126,15 +126,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/environment" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/environment" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/urg_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/urg_node")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/urg_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/urg_node")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -142,7 +142,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/environment" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/environment" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,58 +150,58 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/environment" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/environment" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_index/share/ament_index/resource_index/packages/urg_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_index/share/ament_index/resource_index/packages/urg_node")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/urg_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/urg_node")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/cmake" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/cmake" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/cmake" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/cmake" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/cmake" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/cmake" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node/cmake" TYPE FILE FILES
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_core/urg_nodeConfig.cmake"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/ament_cmake_core/urg_nodeConfig-version.cmake"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_core/urg_nodeConfig.cmake"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/ament_cmake_core/urg_nodeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/urg_node" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -212,5 +212,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

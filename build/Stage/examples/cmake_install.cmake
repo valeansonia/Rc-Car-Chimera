@@ -1,8 +1,8 @@
-# Install script for directory: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/examples
+# Install script for directory: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage")
+  set(CMAKE_INSTALL_PREFIX "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/examples/ctrl/cmake_install.cmake")
+  include("/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/examples/ctrl/cmake_install.cmake")
 
 endif()
 

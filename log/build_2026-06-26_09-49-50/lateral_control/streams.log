@@ -1,0 +1,51 @@
+[3.220s] Invoking command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/lateral_control': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) PYTHONPATH=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lateral_control build --build-base /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build install --record /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/install.log --single-version-externally-managed install_data
+[3.811s] running egg_info
+[3.852s] writing ../../../build/lateral_control/lateral_control.egg-info/PKG-INFO
+[3.853s] writing dependency_links to ../../../build/lateral_control/lateral_control.egg-info/dependency_links.txt
+[3.854s] writing entry points to ../../../build/lateral_control/lateral_control.egg-info/entry_points.txt
+[3.854s] writing requirements to ../../../build/lateral_control/lateral_control.egg-info/requires.txt
+[3.854s] writing top-level names to ../../../build/lateral_control/lateral_control.egg-info/top_level.txt
+[3.941s] reading manifest file '../../../build/lateral_control/lateral_control.egg-info/SOURCES.txt'
+[3.944s] writing manifest file '../../../build/lateral_control/lateral_control.egg-info/SOURCES.txt'
+[3.945s] running build
+[3.945s] running build_py
+[3.945s] copying lateral_control/lidar_detection.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.946s] copying lateral_control/lane_information.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.946s] copying lateral_control/xbox_controls.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.946s] copying lateral_control/visual.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.947s] copying lateral_control/traffic_sign_classifier.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.947s] copying lateral_control/__init__.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.947s] copying lateral_control/lane2.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.948s] copying lateral_control/steering_control.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.948s] copying lateral_control/in_lane_positioning.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.949s] copying lateral_control/ack_to_pca.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.949s] copying lateral_control/autonomous_video_version.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build/lib/lateral_control
+[3.950s] running install
+[3.958s] running install_lib
+[4.001s] running install_data
+[4.001s] copying resource/lateral_control -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/ament_index/resource_index/packages
+[4.002s] copying package.xml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control
+[4.002s] copying launch/lateral_control.launch.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/launch
+[4.003s] copying config/camera_config_HDwebCam.yaml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/config
+[4.003s] copying config/lane_detection.yaml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/config
+[4.004s] copying config/steering_control.yaml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/config
+[4.004s] copying config/camera_config_ZED_376p.yaml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/config
+[4.004s] copying config/camera_config_ZED_720p.yaml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/config
+[4.004s] copying config/camera_config_Logi.yaml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/config
+[4.005s] copying config/camera_config_ZED_1242p.yaml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/config
+[4.005s] copying config/camera_config_ZED_1080p.yaml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/share/lateral_control/config
+[4.005s] running install_egg_info
+[4.050s] removing '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages/lateral_control-0.0.0-py3.10.egg-info' (and everything under it)
+[4.050s] Copying ../../../build/lateral_control/lateral_control.egg-info to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages/lateral_control-0.0.0-py3.10.egg-info
+[4.052s] running install_scripts
+[4.147s] Installing ack_to_pca script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.148s] Installing autonomous_video_version script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.148s] Installing in_lane_positioning script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.149s] Installing lane2 script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.149s] Installing lane_information script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.150s] Installing lidar_detection script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.150s] Installing steering_control script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.151s] Installing traffic_sign_classifier script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.151s] Installing visual script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/lateral_control
+[4.153s] writing list of installed files to '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/install.log'
+[4.263s] Invoked command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/lateral_control' returned '0': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) PYTHONPATH=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lateral_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lateral_control build --build-base /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/build install --record /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lateral_control/install.log --single-version-externally-managed install_data

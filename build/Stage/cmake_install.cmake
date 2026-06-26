@@ -1,8 +1,8 @@
-# Install script for directory: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage
+# Install script for directory: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage")
+  set(CMAKE_INSTALL_PREFIX "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,22 +43,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/stage.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/stage.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Stage" TYPE FILE FILES
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/stage-config.cmake"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/stage-config-version.cmake"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/stage-config.cmake"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/stage-config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/libstage/cmake_install.cmake")
-  include("/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/examples/cmake_install.cmake")
-  include("/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/assets/cmake_install.cmake")
-  include("/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/worlds/cmake_install.cmake")
+  include("/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/libstage/cmake_install.cmake")
+  include("/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/examples/cmake_install.cmake")
+  include("/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/assets/cmake_install.cmake")
+  include("/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/worlds/cmake_install.cmake")
 
 endif()
 
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

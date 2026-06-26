@@ -1,8 +1,8 @@
-IF(NOT EXISTS "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/install_manifest.txt")
+IF(NOT EXISTS "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/install_manifest.txt")
 
-FILE(READ "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage/install_manifest.txt" files)
+FILE(READ "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

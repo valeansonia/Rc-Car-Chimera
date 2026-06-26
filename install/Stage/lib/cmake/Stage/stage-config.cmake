@@ -3,7 +3,7 @@
 #    STAGE_INCLUDE_DIRS - Stage Include directories
 #    STAGE_LIBRARIES    - Stage link libraries
 
-set(STAGE_INCLUDE_DIRS "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/include/Stage-4.3"
+set(STAGE_INCLUDE_DIRS "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/include/Stage-4.3"
   "/usr/lib/fltk;/usr/include"
   "/usr/include")
 list(REMOVE_DUPLICATES STAGE_INCLUDE_DIRS)

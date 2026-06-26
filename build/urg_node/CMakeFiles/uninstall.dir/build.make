@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node
+CMAKE_SOURCE_DIR = /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node
+CMAKE_BINARY_DIR = /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/urg_node /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node /home/arrk-adas/Desktop/Rc-Car-Chimera/build/urg_node/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

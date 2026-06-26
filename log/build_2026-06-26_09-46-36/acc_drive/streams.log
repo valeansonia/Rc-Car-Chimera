@@ -1,0 +1,33 @@
+[4.671s] Invoking command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/acc_drive': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) PYTHONPATH=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/acc_drive build --build-base /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build install --record /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/install.log --single-version-externally-managed install_data
+[6.351s] running egg_info
+[6.461s] creating ../../../build/acc_drive/acc_drive.egg-info
+[6.464s] writing ../../../build/acc_drive/acc_drive.egg-info/PKG-INFO
+[6.473s] writing dependency_links to ../../../build/acc_drive/acc_drive.egg-info/dependency_links.txt
+[6.478s] writing entry points to ../../../build/acc_drive/acc_drive.egg-info/entry_points.txt
+[6.485s] writing requirements to ../../../build/acc_drive/acc_drive.egg-info/requires.txt
+[6.485s] writing top-level names to ../../../build/acc_drive/acc_drive.egg-info/top_level.txt
+[6.486s] writing manifest file '../../../build/acc_drive/acc_drive.egg-info/SOURCES.txt'
+[6.746s] reading manifest file '../../../build/acc_drive/acc_drive.egg-info/SOURCES.txt'
+[6.768s] writing manifest file '../../../build/acc_drive/acc_drive.egg-info/SOURCES.txt'
+[6.768s] running build
+[6.768s] running build_py
+[6.770s] creating /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build/lib/acc_drive
+[6.771s] copying acc_drive/__init__.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build/lib/acc_drive
+[6.771s] copying acc_drive/acc_drive.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build/lib/acc_drive
+[6.773s] running install
+[6.780s] running install_lib
+[6.910s] creating /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages/acc_drive
+[6.910s] copying /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build/lib/acc_drive/__init__.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages/acc_drive
+[6.910s] copying /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build/lib/acc_drive/acc_drive.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages/acc_drive
+[6.910s] byte-compiling /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages/acc_drive/__init__.py to __init__.cpython-310.pyc
+[6.913s] byte-compiling /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages/acc_drive/acc_drive.py to acc_drive.cpython-310.pyc
+[6.920s] running install_data
+[6.920s] creating /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/share/ament_index/resource_index/packages
+[6.921s] copying resource/acc_drive -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/share/ament_index/resource_index/packages
+[6.922s] copying package.xml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/share/acc_drive
+[6.922s] running install_egg_info
+[7.029s] Copying ../../../build/acc_drive/acc_drive.egg-info to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages/acc_drive-0.0.0-py3.10.egg-info
+[7.039s] running install_scripts
+[7.258s] Installing acc_drive script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/acc_drive
+[7.259s] writing list of installed files to '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/install.log'
+[7.465s] Invoked command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/acc_drive' returned '0': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) PYTHONPATH=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/acc_drive build --build-base /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build install --record /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/install.log --single-version-externally-managed install_data

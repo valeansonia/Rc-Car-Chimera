@@ -17,7 +17,7 @@ setup(
     maintainer_email='ubuntu@ubuntu.com',
     description='Sets the speed fron the depth info',
     license='Apache License 2.0',
-    tests_require=['pytest'],
+    #tests_require=['pytest'],
     entry_points={
         'console_scripts': [
         	'acc_drive = acc_drive.acc_drive:main',

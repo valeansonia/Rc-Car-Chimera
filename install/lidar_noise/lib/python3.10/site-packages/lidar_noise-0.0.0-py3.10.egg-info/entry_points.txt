@@ -1,3 +1,2 @@
 [console_scripts]
 Lidar_scan_split = lidar_noise.Lidar_scan_split:main
-

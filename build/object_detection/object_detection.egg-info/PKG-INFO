@@ -1,12 +1,13 @@
-Metadata-Version: 2.1
-Name: object-detection
+Metadata-Version: 2.4
+Name: object_detection
 Version: 0.0.0
 Summary: TODO: Package description
-Home-page: UNKNOWN
 Maintainer: ubuntu
 Maintainer-email: ubuntu@todo.todo
 License: TODO: License declaration
-Platform: UNKNOWN
-
-UNKNOWN
-
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

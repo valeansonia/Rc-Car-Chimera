@@ -97,48 +97,7 @@ class AckToPca(Node):
             self.set_speed(DEFAULT_SPEED)
         else:
             self.set_speed(DEFAULT_SPEED + SPEED_STEP)
-###########################3
 
-    def pca_callback(self, msg):
-        """
-        Simple mapping from PCA value to steering with warm-up and obstacle handling.
-        Basic logic:
-        - If lane_value < -3 or > 3 → straight
-        - Else map linearly to steering range
-        - If obstacle detected → stop
-        - If speed increased → skip steering updates for 0.67s warm-up
-        """
-        now = time.time()
-        lane_value = msg.data  # -3 to 3, outside range means straight
-
-        if not self.running_fast and not self.obstacle_in_front:
-            self.running_fast = True
-            self.start_time = now
-
-        print("LOGGING: Lane value:", lane_value)
-
-        # straight road condition
-        if lane_value < -3 or lane_value > 3:
-            steer_val = DEFAULT_STEERING
-            print("LOGGING: Straight road detected")
-        else:
-            # closer to 0 → bigger steering rotation
-            scale = 1 - abs(lane_value) / 3  
-            if lane_value < 0:
-                steer_val = DEFAULT_STEERING + int(scale * 2720)
-            else:
-                steer_val = DEFAULT_STEERING - int(scale * 2720)
-
-        self.set_steering(steer_val)
-
-        print("LOGGING: Obstacle in front:", self.obstacle_in_front)
-        # obstacle handling using LiDAR
-        if self.obstacle_in_front:
-            self.set_speed(DEFAULT_SPEED)
-            self.running_fast = False 
-        else:
-            self.set_speed(DEFAULT_SPEED + SPEED_STEP)
-            self.running_fast = True
 
     def pca_callback2(self, msg):
         """
@@ -181,7 +140,7 @@ class AckToPca(Node):
                 chosen_value = sum(right_values) / len(right_values)  # avg right
                 print(f"LOGGING: Averaged RIGHT → {chosen_value:.2f}")
             else:
-                # if tie, take average of all values
+                # if tie, take average of all values:Carinaaa/Rc-Car-Chime
                 chosen_value = sum(v for _, v in self.readings) / len(self.readings)
                 print(f"LOGGING: Averaged MIXED → {chosen_value:.2f}")
 
@@ -208,93 +167,7 @@ class AckToPca(Node):
         self.set_speed(self.vehicle_velocity)
 
 
-    def pca_callback_combined(self, msg):
-        """
-        Combined logic with handling for small/invalid values.
-        Logic:
-        - If lane_value == 755 or abs(lane_value) < 1.00 → ignore, continue last direction
-        - Else use short-term averaging as before
-        - Map chosen value to steering
-        - Handle warm-up and obstacle as before
-        """
-        now = time.time()
-        lane_value = msg.data  # raw PCA value
-
-        if not self.running_fast and not self.obstacle_in_front:
-            self.running_fast = True
-            self.start_time = now
-
-        if self.running_fast and self.start_time and (now - self.start_time < 0.67):
-            print("LOGGING: Skipping steering update during warm-up")
-            return
-
-        if lane_value == 755 or abs(lane_value) < 1.00:
-            if not hasattr(self, "last_direction"):
-                self.last_direction = "STRAIGHT"
-
-            print(f"LOGGING: Ignoring small/invalid value {lane_value}, continuing {self.last_direction}")
-
-            # map last_direction to steering
-            if self.last_direction == "STRAIGHT":
-                steer_val = DEFAULT_STEERING
-            elif self.last_direction == "LEFT":
-                scale = 0.7
-                steer_val = DEFAULT_STEERING + int(scale * 2720)
-            elif self.last_direction == "RIGHT":
-                scale = 0.7
-                steer_val = DEFAULT_STEERING - int(scale * 2720)
-            else:
-                steer_val = DEFAULT_STEERING
-                self.last_direction = "STRAIGHT"
-
-        else:
-            self.readings.append((now, lane_value))
-            self.readings = [(t, v) for (t, v) in self.readings if now - t <= self.window_size]
-
-            chosen_value = lane_value
-
-            if len(self.readings) >= 3:
-                left_values = [v for _, v in self.readings if v < 0]
-                right_values = [v for _, v in self.readings if v > 0]
-
-                if len(left_values) > len(right_values) and left_values:
-                    chosen_value = sum(left_values) / len(left_values)
-                    print(f"LOGGING: Averaged LEFT → {chosen_value:.2f}")
-                    self.last_direction = "LEFT"
-                elif len(right_values) > len(left_values) and right_values:
-                    chosen_value = sum(right_values) / len(right_values)
-                    print(f"LOGGING: Averaged RIGHT → {chosen_value:.2f}")
-                    self.last_direction = "RIGHT"
-                else:
-                    chosen_value = sum(v for _, v in self.readings) / len(self.readings)
-                    print(f"LOGGING: Averaged MIXED → {chosen_value:.2f}")
-                    if abs(chosen_value) < 0.5:
-                        self.last_direction = "STRAIGHT"
-
-            # map chosen_value to steering
-            if chosen_value < -3 or chosen_value > 3:
-                steer_val = DEFAULT_STEERING
-                print("LOGGING: Straight road detected")
-                self.last_direction = "STRAIGHT"
-            else:
-                scale = 1 - abs(chosen_value) / 3
-                if chosen_value < 0:
-                    steer_val = DEFAULT_STEERING + int(scale * 2720)
-                    self.last_direction = "LEFT"
-                elif chosen_value > 0:
-                    steer_val = DEFAULT_STEERING - int(scale * 2720)
-                    self.last_direction = "RIGHT"
-                else:
-                    steer_val = DEFAULT_STEERING
-                    self.last_direction = "STRAIGHT"
-
-        self.set_steering(steer_val)
-
-        if self.obstacle_in_front:
-            self.set_speed(DEFAULT_SPEED)
-            self.running_fast = False
-        else:
-            self.set_speed(DEFAULT_SPEED + SPEED_STEP)
+   
 
     # manual logic
     def handle_controller_input(self, code, value):

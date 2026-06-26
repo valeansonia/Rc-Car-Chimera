@@ -1,8 +1,8 @@
-# Install script for directory: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps
+# Install script for directory: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage")
+  set(CMAKE_INSTALL_PREFIX "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,27 +44,27 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage/worlds/bitmaps" TYPE FILE FILES
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/889_05.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/SFU_1200x615.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/SRI-AIC-kwing.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/autolab.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/cave.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/cave_compact.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/cave_filled.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/frieburg.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/ghost.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/hospital.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/hospital_section.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/human_outline.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/mbicp.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/rink.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/sal2.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/simple_rooms.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/space_invader.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/submarine.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/submarine_small.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/table.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/uoa_robotics_lab.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/889_05.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/SFU_1200x615.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/SRI-AIC-kwing.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/autolab.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/cave.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/cave_compact.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/cave_filled.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/frieburg.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/ghost.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/hospital.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/hospital_section.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/human_outline.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/mbicp.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/rink.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/sal2.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/simple_rooms.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/space_invader.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/submarine.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/submarine_small.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/table.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/bitmaps/uoa_robotics_lab.png"
     )
 endif()
 

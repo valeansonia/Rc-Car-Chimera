@@ -1,8 +1,8 @@
 libstage/CMakeFiles/stage.dir/texture_manager.cc.o: \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/texture_manager.cc \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/texture_manager.cc \
  /usr/include/stdc-predef.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/texture_manager.hh \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/texture_manager.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -229,5 +229,5 @@ libstage/CMakeFiles/stage.dir/texture_manager.cc.o: \
  /usr/include/FL/fl_draw.H /usr/include/FL/gl.h /usr/include/GL/gl.h \
  /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
  /usr/include/GL/glu.h /usr/include/FL/Fl_Shared_Image.H \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/file_manager.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/file_manager.hh \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc

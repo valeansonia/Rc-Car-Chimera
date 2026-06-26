@@ -1,8 +1,8 @@
-# Install script for directory: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2
+# Install script for directory: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2")
+  set(CMAKE_INSTALL_PREFIX "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -47,14 +47,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2/environment" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2/environment" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2/" TYPE DIRECTORY FILES
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/launch"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/config"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/launch"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/config"
     )
 endif()
 
@@ -65,12 +65,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstage_node.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/libstage_node.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/libstage_node.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstage_node.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstage_node.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstage_node.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/arrk-adas/miniforge3/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstage_node.so")
@@ -88,12 +88,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stage_ros2/stage_ros2"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stage_ros2" TYPE EXECUTABLE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/stage_ros2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/stage_ros2" TYPE EXECUTABLE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/stage_ros2")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stage_ros2/stage_ros2" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stage_ros2/stage_ros2")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stage_ros2/stage_ros2"
-         OLD_RPATH "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib/cmake/Stage/../../../lib:/opt/ros/humble/lib:/home/arrk-adas/miniforge3/lib:"
+         OLD_RPATH "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/cmake/Stage/../../../lib:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/stage_ros2/stage_ros2")
@@ -102,11 +102,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/stage_ros2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/stage_ros2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/stage_ros2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/stage_ros2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -114,7 +114,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2/environment" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2/environment" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -122,42 +122,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2/environment" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2/environment" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_index/share/ament_index/resource_index/packages/stage_ros2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_index/share/ament_index/resource_index/packages/stage_ros2")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2/cmake" TYPE FILE FILES
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_core/stage_ros2Config.cmake"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/ament_cmake_core/stage_ros2Config-version.cmake"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_core/stage_ros2Config.cmake"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/ament_cmake_core/stage_ros2Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage_ros2" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -168,5 +168,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

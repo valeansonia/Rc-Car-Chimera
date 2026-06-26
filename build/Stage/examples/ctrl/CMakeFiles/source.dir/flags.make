@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dsource_EXPORTS
 
-CXX_INCLUDES = -I/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/. -I/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage -I/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/replace -I/usr/lib/fltk
+CXX_INCLUDES = -I/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/. -I/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage -I/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/replace -I/usr/lib/fltk
 
 CXX_FLAGS =  -O2 -DNDEBUG -Wall  -fPIC
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2
+CMAKE_SOURCE_DIR = /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2
+CMAKE_BINARY_DIR = /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stage_node.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/stage_node.dir/progress.make
 include CMakeFiles/stage_node.dir/flags.make
 
 CMakeFiles/stage_node.dir/src/stage_node.cpp.o: CMakeFiles/stage_node.dir/flags.make
-CMakeFiles/stage_node.dir/src/stage_node.cpp.o: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/stage_node.cpp
+CMakeFiles/stage_node.dir/src/stage_node.cpp.o: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/stage_node.cpp
 CMakeFiles/stage_node.dir/src/stage_node.cpp.o: CMakeFiles/stage_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stage_node.dir/src/stage_node.cpp.o -MF CMakeFiles/stage_node.dir/src/stage_node.cpp.o.d -o CMakeFiles/stage_node.dir/src/stage_node.cpp.o -c /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/stage_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stage_node.dir/src/stage_node.cpp.o -MF CMakeFiles/stage_node.dir/src/stage_node.cpp.o.d -o CMakeFiles/stage_node.dir/src/stage_node.cpp.o -c /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/stage_node.cpp
 
 CMakeFiles/stage_node.dir/src/stage_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage_node.dir/src/stage_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/stage_node.cpp > CMakeFiles/stage_node.dir/src/stage_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/stage_node.cpp > CMakeFiles/stage_node.dir/src/stage_node.cpp.i
 
 CMakeFiles/stage_node.dir/src/stage_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage_node.dir/src/stage_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/stage_node.cpp -o CMakeFiles/stage_node.dir/src/stage_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/stage_node.cpp -o CMakeFiles/stage_node.dir/src/stage_node.cpp.s
 
 CMakeFiles/stage_node.dir/src/vehicle.cpp.o: CMakeFiles/stage_node.dir/flags.make
-CMakeFiles/stage_node.dir/src/vehicle.cpp.o: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/vehicle.cpp
+CMakeFiles/stage_node.dir/src/vehicle.cpp.o: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/vehicle.cpp
 CMakeFiles/stage_node.dir/src/vehicle.cpp.o: CMakeFiles/stage_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stage_node.dir/src/vehicle.cpp.o -MF CMakeFiles/stage_node.dir/src/vehicle.cpp.o.d -o CMakeFiles/stage_node.dir/src/vehicle.cpp.o -c /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stage_node.dir/src/vehicle.cpp.o -MF CMakeFiles/stage_node.dir/src/vehicle.cpp.o.d -o CMakeFiles/stage_node.dir/src/vehicle.cpp.o -c /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/vehicle.cpp
 
 CMakeFiles/stage_node.dir/src/vehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage_node.dir/src/vehicle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/vehicle.cpp > CMakeFiles/stage_node.dir/src/vehicle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/vehicle.cpp > CMakeFiles/stage_node.dir/src/vehicle.cpp.i
 
 CMakeFiles/stage_node.dir/src/vehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage_node.dir/src/vehicle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/vehicle.cpp -o CMakeFiles/stage_node.dir/src/vehicle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/vehicle.cpp -o CMakeFiles/stage_node.dir/src/vehicle.cpp.s
 
 CMakeFiles/stage_node.dir/src/ranger.cpp.o: CMakeFiles/stage_node.dir/flags.make
-CMakeFiles/stage_node.dir/src/ranger.cpp.o: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/ranger.cpp
+CMakeFiles/stage_node.dir/src/ranger.cpp.o: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/ranger.cpp
 CMakeFiles/stage_node.dir/src/ranger.cpp.o: CMakeFiles/stage_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stage_node.dir/src/ranger.cpp.o -MF CMakeFiles/stage_node.dir/src/ranger.cpp.o.d -o CMakeFiles/stage_node.dir/src/ranger.cpp.o -c /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/ranger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stage_node.dir/src/ranger.cpp.o -MF CMakeFiles/stage_node.dir/src/ranger.cpp.o.d -o CMakeFiles/stage_node.dir/src/ranger.cpp.o -c /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/ranger.cpp
 
 CMakeFiles/stage_node.dir/src/ranger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage_node.dir/src/ranger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/ranger.cpp > CMakeFiles/stage_node.dir/src/ranger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/ranger.cpp > CMakeFiles/stage_node.dir/src/ranger.cpp.i
 
 CMakeFiles/stage_node.dir/src/ranger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage_node.dir/src/ranger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/ranger.cpp -o CMakeFiles/stage_node.dir/src/ranger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/ranger.cpp -o CMakeFiles/stage_node.dir/src/ranger.cpp.s
 
 CMakeFiles/stage_node.dir/src/camera.cpp.o: CMakeFiles/stage_node.dir/flags.make
-CMakeFiles/stage_node.dir/src/camera.cpp.o: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/camera.cpp
+CMakeFiles/stage_node.dir/src/camera.cpp.o: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/camera.cpp
 CMakeFiles/stage_node.dir/src/camera.cpp.o: CMakeFiles/stage_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stage_node.dir/src/camera.cpp.o -MF CMakeFiles/stage_node.dir/src/camera.cpp.o.d -o CMakeFiles/stage_node.dir/src/camera.cpp.o -c /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stage_node.dir/src/camera.cpp.o -MF CMakeFiles/stage_node.dir/src/camera.cpp.o.d -o CMakeFiles/stage_node.dir/src/camera.cpp.o -c /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/camera.cpp
 
 CMakeFiles/stage_node.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage_node.dir/src/camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/camera.cpp > CMakeFiles/stage_node.dir/src/camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/camera.cpp > CMakeFiles/stage_node.dir/src/camera.cpp.i
 
 CMakeFiles/stage_node.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage_node.dir/src/camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/camera.cpp -o CMakeFiles/stage_node.dir/src/camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/src/camera.cpp -o CMakeFiles/stage_node.dir/src/camera.cpp.s
 
 # Object files for target stage_node
 stage_node_OBJECTS = \
@@ -277,7 +277,7 @@ libstage_node.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libstage_node.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libstage_node.so: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
 libstage_node.so: CMakeFiles/stage_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libstage_node.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libstage_node.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stage_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +289,6 @@ CMakeFiles/stage_node.dir/clean:
 .PHONY : CMakeFiles/stage_node.dir/clean
 
 CMakeFiles/stage_node.dir/depend:
-	cd /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2 /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2 /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2 /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2 /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2/CMakeFiles/stage_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2 /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2 /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2 /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2 /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2/CMakeFiles/stage_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/stage_node.dir/depend
 

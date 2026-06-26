@@ -1,0 +1,23 @@
+running egg_info
+writing ../../../build/acc_drive/acc_drive.egg-info/PKG-INFO
+writing dependency_links to ../../../build/acc_drive/acc_drive.egg-info/dependency_links.txt
+writing entry points to ../../../build/acc_drive/acc_drive.egg-info/entry_points.txt
+writing requirements to ../../../build/acc_drive/acc_drive.egg-info/requires.txt
+writing top-level names to ../../../build/acc_drive/acc_drive.egg-info/top_level.txt
+reading manifest file '../../../build/acc_drive/acc_drive.egg-info/SOURCES.txt'
+writing manifest file '../../../build/acc_drive/acc_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+copying acc_drive/__init__.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build/lib/acc_drive
+copying acc_drive/acc_drive.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/build/lib/acc_drive
+running install
+running install_lib
+running install_data
+copying resource/acc_drive -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/share/ament_index/resource_index/packages
+copying package.xml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/share/acc_drive
+running install_egg_info
+removing '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages/acc_drive-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/acc_drive/acc_drive.egg-info to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/python3.10/site-packages/acc_drive-0.0.0-py3.10.egg-info
+running install_scripts
+Installing acc_drive script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/acc_drive/lib/acc_drive
+writing list of installed files to '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/acc_drive/install.log'

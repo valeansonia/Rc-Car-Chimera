@@ -1,9 +1,9 @@
 libstage/CMakeFiles/stage.dir/canvas.cc.o: \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/canvas.cc \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/canvas.cc \
  /usr/include/stdc-predef.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/canvas.hh \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/option.hh \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/worldfile.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/canvas.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/option.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/worldfile.hh \
  /usr/include/c++/11/cstdio \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -172,7 +172,7 @@ libstage/CMakeFiles/stage.dir/canvas.cc.o: \
  /usr/include/FL/Enumerations.H /usr/include/FL/Fl_Export.H \
  /usr/include/FL/Fl_Menu_Item.H /usr/include/FL/Fl_Image.H \
  /usr/include/FL/Fl_Menu_Item.H \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
  /usr/include/assert.h /usr/include/libgen.h /usr/include/c++/11/stdlib.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/aarch64-linux-gnu/bits/strings_fortified.h \
@@ -234,8 +234,8 @@ libstage/CMakeFiles/stage.dir/canvas.cc.o: \
  /usr/include/FL/gl.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h /usr/include/GL/glu.h \
  /usr/include/c++/11/stack /usr/include/c++/11/bits/stl_stack.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/replace/replace.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/texture_manager.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/replace/replace.h \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/texture_manager.hh \
  /usr/include/FL/Fl_Shared_Image.H /usr/include/png.h \
  /usr/include/pnglibconf.h /usr/include/pngconf.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
@@ -248,10 +248,10 @@ libstage/CMakeFiles/stage.dir/canvas.cc.o: \
  /usr/include/aarch64-linux-gnu/bits/uio_lim.h /usr/include/setjmp.h \
  /usr/include/aarch64-linux-gnu/bits/setjmp2.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/file_manager.hh \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/options_dlg.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/file_manager.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/options_dlg.hh \
  /usr/include/FL/Fl_Button.H /usr/include/FL/Fl_Check_Button.H \
  /usr/include/FL/Fl_Light_Button.H /usr/include/FL/Fl_Button.H \
  /usr/include/FL/Fl_Scroll.H /usr/include/FL/Fl_Scrollbar.H \
  /usr/include/FL/Fl_Slider.H /usr/include/FL/Fl_Valuator.H \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/region.hh
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/region.hh

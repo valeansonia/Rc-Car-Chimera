@@ -1,8 +1,8 @@
-# Install script for directory: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets
+# Install script for directory: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage")
+  set(CMAKE_INSTALL_PREFIX "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,22 +44,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage/assets" TYPE FILE FILES
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/blue.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/death.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/green.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/logo.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/mains.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/mainspower.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/question_mark.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/red.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/stagelogo.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/stall-old.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/stall.png"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/rgb.txt"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/blue.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/death.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/green.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/logo.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/mains.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/mainspower.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/question_mark.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/red.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/stagelogo.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/stall-old.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/stall.png"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/rgb.txt"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage" TYPE FILE FILES "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/assets/rgb.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage" TYPE FILE FILES "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/assets/rgb.txt")
 endif()
 
