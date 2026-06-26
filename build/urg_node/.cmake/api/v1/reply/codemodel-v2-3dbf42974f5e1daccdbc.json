@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5674c9c0762447bbd775.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "urg_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "getID::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getID-c3df494c374a2ba2abb8.json",
+					"name" : "getID",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7f98b1bdd1af84be2f14.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node-6b188286f91b46b75439.json",
+					"name" : "urg_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node_driver-2d709a22ce568e196a14.json",
+					"name" : "urg_node_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urg_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urg_node_uninstall-a7aa06e1f25127bf9129.json",
+					"name" : "urg_node_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/urg_node",
+		"source" : "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/urg_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

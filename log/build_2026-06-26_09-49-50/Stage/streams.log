@@ -1,0 +1,142 @@
+[0.095s] Invoking command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) /usr/bin/cmake --build /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage -- -j8 -l8
+[2.021s] [35m[1mConsolidate compiler generated dependencies of target stage[0m
+[2.022s] [ 57%] Built target stage
+[2.023s] [35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[2.023s] [35m[1mConsolidate compiler generated dependencies of target source[0m
+[2.023s] [35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[2.023s] [35m[1mConsolidate compiler generated dependencies of target sink[0m
+[2.024s] [35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[2.024s] [35m[1mConsolidate compiler generated dependencies of target wander[0m
+[2.025s] [35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[2.025s] [35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[2.025s] [ 64%] Built target source
+[2.025s] [ 64%] Built target sink
+[2.028s] [ 67%] Built target rasterize
+[2.029s] [ 72%] Built target wander
+[2.029s] [ 74%] Built target fasr
+[2.030s] [ 77%] Built target stagebinary
+[2.030s] [ 81%] Built target pioneer_flocking
+[2.030s] [ 84%] Built target lasernoise
+[2.031s] [35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[2.031s] [35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[2.032s] [35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[2.034s] [35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[2.034s] [ 88%] Built target dynamic
+[2.034s] [ 91%] Built target expand_swarm
+[2.034s] [ 94%] Built target expand_pioneer
+[2.035s] [100%] Built target fasr2
+[2.038s] Invoked command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage' returned '0': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) /usr/bin/cmake --build /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage -- -j8 -l8
+[2.052s] Invoking command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) /usr/bin/cmake --install /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage
+[2.065s] -- Install configuration: "RELEASE"
+[2.065s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/pkgconfig/stage.pc
+[2.065s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/cmake/Stage/stage-config.cmake
+[2.065s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/cmake/Stage/stage-config-version.cmake
+[2.066s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/bin/stage
+[2.067s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/libstage.so.4.3.0
+[2.069s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/libstage.so
+[2.070s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/include/Stage-4.3/stage.hh
+[2.070s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/fasr.so
+[2.071s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/sink.so
+[2.075s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/source.so
+[2.078s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/wander.so
+[2.078s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/pioneer_flocking.so
+[2.078s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/rasterize.so
+[2.083s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/lasernoise.so
+[2.083s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/dynamic.so
+[2.083s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/fasr2.so
+[2.084s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/blue.png
+[2.084s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/death.png
+[2.085s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/green.png
+[2.086s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/logo.png
+[2.086s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/mains.png
+[2.087s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/mainspower.png
+[2.087s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/question_mark.png
+[2.087s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/red.png
+[2.087s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/stagelogo.png
+[2.087s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/stall-old.png
+[2.088s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/stall.png
+[2.088s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/assets/rgb.txt
+[2.088s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/rgb.txt
+[2.088s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/amcl-sonar.cfg
+[2.088s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/autolab.cfg
+[2.088s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/camera.cfg
+[2.088s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/everything.cfg
+[2.088s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/lsp_test.cfg
+[2.089s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/mbicp.cfg
+[2.089s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/nd.cfg
+[2.089s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/roomba.cfg
+[2.089s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/simple.cfg
+[2.089s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/test.cfg
+[2.090s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg
+[2.090s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/vfh.cfg
+[2.090s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wavefront-remote.cfg
+[2.090s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wavefront.cfg
+[2.090s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi.cfg
+[2.090s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/SFU.world
+[2.090s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/autolab.world
+[2.090s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/camera.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/circuit.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/everything.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/fasr.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/fasr2.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/fasr_plan.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/large.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/lsp_test.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/mbicp.world
+[2.091s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/pioneer_flocking.world
+[2.092s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/pioneer_follow.world
+[2.092s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/pioneer_walle.world
+[2.092s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/roomba.world
+[2.092s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/sensor_noise_demo.world
+[2.092s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/sensor_noise_module_demo.world
+[2.092s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/simple.world
+[2.092s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/uoa_robotics_lab.world
+[2.092s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi.world
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/beacons.inc
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/chatterbox.inc
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/hokuyo.inc
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/irobot.inc
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/map.inc
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/objects.inc
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/pantilt.inc
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/pioneer.inc
+[2.093s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/sick.inc
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/ubot.inc
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/walle.inc
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/cfggen.sh
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/test.sh
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/worldgen.sh
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/expand_swarm.so
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/lib/Stage-4.3/expand_pioneer.so
+[2.094s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/889_05.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/autolab.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/cave.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/cave_compact.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/cave_filled.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/frieburg.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/ghost.png
+[2.095s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/hospital.png
+[2.096s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/hospital_section.png
+[2.096s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/human_outline.png
+[2.096s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/mbicp.png
+[2.096s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/rink.png
+[2.096s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/sal2.png
+[2.096s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png
+[2.096s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/space_invader.png
+[2.096s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/submarine.png
+[2.098s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/submarine_small.png
+[2.098s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/table.png
+[2.099s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[2.099s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/commando.world
+[2.099s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/hosp_wifi.world
+[2.099s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[2.099s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/wifi.world
+[2.099s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/wifi_itu.world
+[2.099s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world
+[2.099s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/wifi_ray.world
+[2.100s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/wifi_simple.world
+[2.100s] -- Up-to-date: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage/share/stage/worlds/wifi/map.inc
+[2.157s] Invoked command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage' returned '0': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) /usr/bin/cmake --install /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/Stage

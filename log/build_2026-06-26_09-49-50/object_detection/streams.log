@@ -1,0 +1,25 @@
+[3.200s] Invoking command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/object_detection': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) PYTHONPATH=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/build install --record /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/install.log --single-version-externally-managed install_data
+[3.786s] running egg_info
+[3.827s] writing ../../../build/object_detection/object_detection.egg-info/PKG-INFO
+[3.828s] writing dependency_links to ../../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[3.828s] writing entry points to ../../../build/object_detection/object_detection.egg-info/entry_points.txt
+[3.829s] writing requirements to ../../../build/object_detection/object_detection.egg-info/requires.txt
+[3.829s] writing top-level names to ../../../build/object_detection/object_detection.egg-info/top_level.txt
+[3.916s] reading manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[3.918s] writing manifest file '../../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[3.919s] running build
+[3.919s] running build_py
+[3.920s] copying object_detection/detection.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/build/lib/object_detection
+[3.920s] copying object_detection/__init__.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/build/lib/object_detection
+[3.921s] running install
+[3.929s] running install_lib
+[3.973s] running install_data
+[3.973s] copying resource/object_detection -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/object_detection/share/ament_index/resource_index/packages
+[3.974s] copying package.xml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/object_detection/share/object_detection
+[3.974s] running install_egg_info
+[4.020s] removing '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[4.020s] Copying ../../../build/object_detection/object_detection.egg-info to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[4.023s] running install_scripts
+[4.119s] Installing detection script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/object_detection/lib/object_detection
+[4.120s] writing list of installed files to '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/install.log'
+[4.218s] Invoked command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/object_detection' returned '0': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) PYTHONPATH=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/object_detection build --build-base /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/build install --record /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/object_detection/install.log --single-version-externally-managed install_data

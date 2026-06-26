@@ -1,0 +1,26 @@
+[3.210s] Invoking command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/lidar_noise': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) PYTHONPATH=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lidar_noise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lidar_noise build --build-base /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/build install --record /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/install.log --single-version-externally-managed install_data
+[3.838s] running egg_info
+[3.881s] writing ../../../build/lidar_noise/lidar_noise.egg-info/PKG-INFO
+[3.882s] writing dependency_links to ../../../build/lidar_noise/lidar_noise.egg-info/dependency_links.txt
+[3.882s] writing entry points to ../../../build/lidar_noise/lidar_noise.egg-info/entry_points.txt
+[3.882s] writing requirements to ../../../build/lidar_noise/lidar_noise.egg-info/requires.txt
+[3.883s] writing top-level names to ../../../build/lidar_noise/lidar_noise.egg-info/top_level.txt
+[3.977s] reading manifest file '../../../build/lidar_noise/lidar_noise.egg-info/SOURCES.txt'
+[3.980s] writing manifest file '../../../build/lidar_noise/lidar_noise.egg-info/SOURCES.txt'
+[3.981s] running build
+[3.981s] running build_py
+[3.981s] copying lidar_noise/__init__.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/build/lib/lidar_noise
+[3.981s] copying lidar_noise/Lidar_noise.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/build/lib/lidar_noise
+[3.982s] copying lidar_noise/Lidar_scan_split.py -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/build/lib/lidar_noise
+[3.983s] running install
+[3.991s] running install_lib
+[4.039s] running install_data
+[4.040s] copying resource/lidar_noise -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lidar_noise/share/ament_index/resource_index/packages
+[4.040s] copying package.xml -> /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lidar_noise/share/lidar_noise
+[4.040s] running install_egg_info
+[4.091s] removing '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lidar_noise/lib/python3.10/site-packages/lidar_noise-0.0.0-py3.10.egg-info' (and everything under it)
+[4.091s] Copying ../../../build/lidar_noise/lidar_noise.egg-info to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lidar_noise/lib/python3.10/site-packages/lidar_noise-0.0.0-py3.10.egg-info
+[4.094s] running install_scripts
+[4.197s] Installing Lidar_scan_split script to /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lidar_noise/lib/lidar_noise
+[4.199s] writing list of installed files to '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/install.log'
+[4.295s] Invoked command in '/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/lidar_noise' returned '0': CONDA_PROMPT_MODIFIER=(/media/arrk-adas/RC-Env/rccar_lib) PYTHONPATH=/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/lidar_noise/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lidar_noise build --build-base /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/build install --record /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/lidar_noise/install.log --single-version-externally-managed install_data

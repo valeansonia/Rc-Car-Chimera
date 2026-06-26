@@ -1,4 +1,0 @@
-Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage -- -j8 -l8
-Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage -- -j8 -l8
-Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage
-Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/Stage

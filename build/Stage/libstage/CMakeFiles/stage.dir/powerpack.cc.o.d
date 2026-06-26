@@ -1,7 +1,7 @@
 libstage/CMakeFiles/stage.dir/powerpack.cc.o: \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/powerpack.cc \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/powerpack.cc \
  /usr/include/stdc-predef.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -228,5 +228,5 @@ libstage/CMakeFiles/stage.dir/powerpack.cc.o: \
  /usr/include/FL/fl_draw.H /usr/include/FL/gl.h /usr/include/GL/gl.h \
  /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
  /usr/include/GL/glu.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/texture_manager.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/texture_manager.hh \
  /usr/include/FL/Fl_Shared_Image.H

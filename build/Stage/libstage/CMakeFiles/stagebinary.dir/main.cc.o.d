@@ -1,5 +1,5 @@
 libstage/CMakeFiles/stagebinary.dir/main.cc.o: \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/main.cc \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/main.cc \
  /usr/include/stdc-predef.h /usr/include/getopt.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -10,8 +10,8 @@ libstage/CMakeFiles/stagebinary.dir/main.cc.o: \
  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
  /usr/include/aarch64-linux-gnu/bits/getopt_ext.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/./config.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/./config.h \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
  /usr/include/assert.h /usr/include/libgen.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/aarch64-linux-gnu/bits/types.h \
  /usr/include/aarch64-linux-gnu/bits/typesizes.h \

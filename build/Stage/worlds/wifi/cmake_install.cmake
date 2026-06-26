@@ -1,8 +1,8 @@
-# Install script for directory: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi
+# Install script for directory: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage")
+  set(CMAKE_INSTALL_PREFIX "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/Stage")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,15 +44,15 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stage/worlds/wifi" TYPE FILE FILES
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/commando.world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/hosp_wifi.world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/hosp_wifi_5.world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi.world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi_itu.world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi_logdistance.world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi_ray.world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi_simple.world"
-    "/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/map.inc"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/commando.world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/hosp_wifi.world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/hosp_wifi_5.world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi.world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi_itu.world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi_logdistance.world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi_ray.world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/wifi_simple.world"
+    "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/worlds/wifi/map.inc"
     )
 endif()
 

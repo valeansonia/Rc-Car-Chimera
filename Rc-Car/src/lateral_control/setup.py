@@ -29,6 +29,7 @@ setup(
             'steering_control = lateral_control.steering_control:main',
             'lane2 = lateral_control.lane2:main',   
             'visual = lateral_control.visual:main',
+            'traffic_sign_classifier = lateral_control.traffic_sign_classifier:main',
             'ack_to_pca = lateral_control.ack_to_pca:main',
             'lidar_detection = lateral_control.lidar_detection:main',
             'autonomous_video_version = lateral_control.autonomous_video_version:main',

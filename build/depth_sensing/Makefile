@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/depth_sensing
+CMAKE_SOURCE_DIR = /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/depth_sensing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing
+CMAKE_BINARY_DIR = /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/depth_sensing
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing/CMakeFiles /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/depth_sensing/CMakeFiles /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/depth_sensing//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arrk-adas/Desktop/Rc-Car-Chimera/build/depth_sensing/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/depth_sensing/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

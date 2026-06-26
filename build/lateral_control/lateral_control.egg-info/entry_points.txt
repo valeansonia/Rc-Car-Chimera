@@ -6,5 +6,5 @@ lane2 = lateral_control.lane2:main
 lane_information = lateral_control.lane_information:main
 lidar_detection = lateral_control.lidar_detection:main
 steering_control = lateral_control.steering_control:main
+traffic_sign_classifier = lateral_control.traffic_sign_classifier:main
 visual = lateral_control.visual:main
-

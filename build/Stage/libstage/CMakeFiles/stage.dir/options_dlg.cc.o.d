@@ -1,7 +1,7 @@
 libstage/CMakeFiles/stage.dir/options_dlg.cc.o: \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/options_dlg.cc \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/options_dlg.cc \
  /usr/include/stdc-predef.h \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/options_dlg.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/options_dlg.hh \
  /usr/include/FL/Fl_Button.H /usr/include/FL/Fl_Widget.H \
  /usr/include/FL/Enumerations.H /usr/include/FL/Fl_Export.H \
  /usr/include/FL/Fl_Check_Button.H /usr/include/FL/Fl_Light_Button.H \
@@ -151,8 +151,8 @@ libstage/CMakeFiles/stage.dir/options_dlg.cc.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/option.hh \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/worldfile.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/option.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/worldfile.hh \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -181,7 +181,7 @@ libstage/CMakeFiles/stage.dir/options_dlg.cc.o: \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/FL/Fl_Menu_Bar.H \
  /usr/include/FL/Fl_Menu_.H /usr/include/FL/Fl_Menu_Item.H \
  /usr/include/FL/Fl_Image.H /usr/include/FL/Fl_Menu_Item.H \
- /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
+ /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/Stage/libstage/stage.hh \
  /usr/include/assert.h /usr/include/libgen.h /usr/include/c++/11/stdlib.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/aarch64-linux-gnu/bits/strings_fortified.h \

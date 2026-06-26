@@ -1,0 +1,121 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /media/arrk-adas/RC-Env/rccar_lib/bin/python3 (found version "3.10.20") found components: Interpreter 
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/./include;$<BUILD_INTERFACE:/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/Rc-Car/src/stage_ros2/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/build/stage_ros2
+[ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[ 71%] Built target stage_node
+[ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable stage_ros2[0m
+[100%] Built target stage_ros2
+-- Install configuration: ""
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/straden.world
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/lines.world
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/hallway.world
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/cave.world
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/include
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/lib/libstage_node.so
+-- Set runtime path of "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/lib/libstage_node.so" to ""
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/lib/stage_ros2/stage_ros2
+-- Set runtime path of "/media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/path.sh
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/path.dsv
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/local_setup.bash
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/local_setup.sh
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/local_setup.zsh
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/local_setup.dsv
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.dsv
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+-- Installing: /media/arrk-adas/RC-Env/RC-car-project/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.xml
