@@ -1,0 +1,8 @@
+source;share/depth_sensing/hook/cmake_prefix_path.ps1
+source;share/depth_sensing/hook/cmake_prefix_path.dsv
+source;share/depth_sensing/hook/cmake_prefix_path.sh
+source;share/depth_sensing/local_setup.bash
+source;share/depth_sensing/local_setup.dsv
+source;share/depth_sensing/local_setup.ps1
+source;share/depth_sensing/local_setup.sh
+source;share/depth_sensing/local_setup.zsh

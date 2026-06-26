@@ -1,0 +1,127 @@
+[0.021s] Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.227s] -- The CXX compiler identification is GNU 11.4.0
+[0.240s] -- Detecting C compiler ABI info
+[0.384s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.397s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.565s] -- Detecting CXX compile features
+[0.565s] -- Detecting CXX compile features - done
+[0.572s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.520s] -- Found Python3: /home/arrk-adas/miniforge3/bin/python3 (found version "3.12.10") found components: Interpreter 
+[1.969s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[2.058s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.069s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.087s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.235s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.241s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.415s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.475s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.564s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.585s] -- Looking for pthread.h
+[2.723s] -- Looking for pthread.h - found
+[2.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.424s] -- Found Threads: TRUE  
+[3.522s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.577s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.638s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.679s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.852s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.892s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.895s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.895s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.902s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[3.934s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.291s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.292s] -- Configured cppcheck include dirs: /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2/include>
+[4.292s] -- Configured cppcheck exclude dirs and/or files: 
+[4.294s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.296s] -- Added test 'lint_cmake' to check CMake code style
+[4.297s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.303s] -- Added test 'uncrustify' to check C / C++ code style
+[4.303s] -- Configured uncrustify additional arguments: 
+[4.304s] -- Added test 'xmllint' to check XML markup files
+[4.307s] -- Configuring done
+[4.349s] -- Generating done
+[4.362s] -- Build files have been written to: /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2
+[4.392s] Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/arrk-adas/Desktop/Rc-Car-Chimera/Rc-Car/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2
+[4.395s] Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2 -- -j8 -l8
+[4.493s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[4.493s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[4.493s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[4.493s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[45.159s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[46.808s] [ 71%] Built target stage_node
+[46.853s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[54.995s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[55.866s] [100%] Built target stage_ros2
+[55.890s] Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2 -- -j8 -l8
+[55.893s] Invoking command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2
+[55.908s] -- Install configuration: ""
+[55.908s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[55.909s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[55.909s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch
+[55.909s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[55.909s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[55.909s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[55.909s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[55.910s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[55.910s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world
+[55.910s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[55.910s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[55.910s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps
+[55.910s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[55.911s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[55.914s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[55.914s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[55.915s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[55.916s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[55.916s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[55.917s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[55.917s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[55.918s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/lines.world
+[55.918s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[55.918s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/straden.world
+[55.918s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/cave.world
+[55.918s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/hallway.world
+[55.918s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/include
+[55.919s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[55.919s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[55.919s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config
+[55.919s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz
+[55.919s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[55.919s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[55.920s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[55.920s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[55.920s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[55.920s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[55.920s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[55.921s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+[55.921s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[55.921s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib/libstage_node.so
+[55.944s] -- Set runtime path of "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib/libstage_node.so" to ""
+[55.944s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib/stage_ros2/stage_ros2
+[55.945s] -- Set runtime path of "/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+[55.945s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[55.945s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[55.946s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[55.946s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[55.946s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/path.sh
+[55.946s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[55.947s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/local_setup.bash
+[55.947s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/local_setup.sh
+[55.947s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[55.948s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[55.948s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.dsv
+[55.948s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[55.948s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[55.949s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[55.949s] -- Installing: /home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/share/stage_ros2/package.xml
+[55.954s] Invoked command in '/home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/depth_sensing:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/object_detection:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lidar_noise:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/lateral_control:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/acc_drive:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/arrk-adas/Desktop/Rc-Car-Chimera/install/Stage/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node2/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/urg_node/lib:/home/arrk-adas/Desktop/Rc-Car-Chimera/install/stage_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arrk-adas/Desktop/Rc-Car-Chimera/build/stage_ros2

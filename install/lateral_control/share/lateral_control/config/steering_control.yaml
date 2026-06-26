@@ -1,0 +1,31 @@
+steering_control:
+  ros__parameters:
+  ### Vehicle Parameters ###
+    v_const: 1.4 #Constant vehicle velocity [m/s]
+    m_car: 5.2 #Mass [kg]
+    Jz_car: 0.08 #Yaw inertia [kg*m^2] 
+    c_h: 9.752 #Cornering stiffness rear [N/rad]
+    c_v: 6.3388 #Cornering stiffness front [N/rad] = 0.65 * c_h
+    l_v: 0.196 #Distance Front axle <--> COG [m]
+    l_h: 0.144 #Distance Rear axle <--> COG [m]
+    l_car: 0.34 #Wheel base [m]
+    dist: 0.36 #Foresight distance [m]  
+  ### Control Parameters ###
+    T_s: 0.05 #0.05 --> 20 Hz from ZED Kamera # Sampling Time [s]
+    max_steering_angle: 0.349 #max Steering Angle [rad]
+    min_steering_angle: -0.349 #min Steering Angle [rad]
+    anti_windup_constant: 2 # time constant to dynamically decrease the saturated output (see Back-Calculation anti windup)
+  # Parameters of diagonal Matrix Q for solving the Riccati-Equation
+  # Fifth state is for integral section of Controller
+    q1: 0.1 # slip angle
+    q2: 0.1 # yaw rate
+    q3: 0.1 # course error
+    q4: 10 # lateral displacement
+    q5: 5 # integral state
+    weight: 1 #weight the Q parameters
+  # Observer Parameters
+    pole_1: -5
+    pole_2: -6
+    pole_3: -7
+    gain_pole: 1
+
