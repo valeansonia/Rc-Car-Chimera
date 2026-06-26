@@ -1,4 +1,0 @@
-source;share/depth_sensing/local_setup.bash
-source;share/depth_sensing/local_setup.dsv
-source;share/depth_sensing/local_setup.sh
-source;share/depth_sensing/local_setup.zsh

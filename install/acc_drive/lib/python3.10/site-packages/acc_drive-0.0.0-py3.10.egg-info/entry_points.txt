@@ -1,2 +1,0 @@
-[console_scripts]
-acc_drive = acc_drive.acc_drive:main
