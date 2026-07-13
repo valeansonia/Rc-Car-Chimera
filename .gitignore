@@ -9,3 +9,7 @@ install
 log
 .vscode
 steering_time.csv
+
+# fisiere prea mari pt GitHub (>100MB) sau fara rost sa fie versionate
+Rc-Car/*.mp4
+**/__pycache__/
