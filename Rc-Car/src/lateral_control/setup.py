@@ -33,6 +33,7 @@ setup(
             'traffic_light_detector = lateral_control.traffic_light_detector:main',
             'traffic_light_drive_policy = lateral_control.traffic_light_drive_policy:main',
             'traffic_light_yolo_detector = lateral_control.traffic_light_yolo_detector:main',
+            'traffic_light_camera_node = lateral_control.traffic_light_camera_node:main',
             'traffic_light_zed_test = lateral_control.traffic_light_zed_test:main',
             'ack_to_pca = lateral_control.ack_to_pca:main',
             'lidar_detection = lateral_control.lidar_detection:main',
